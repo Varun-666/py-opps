@@ -6,4 +6,4 @@ while True:
     else:
         for i in range(1,13):
             print(f"{n} X {i} = {n * i}")
-        break
+    break
