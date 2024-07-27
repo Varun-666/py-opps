@@ -36,8 +36,8 @@ class truck(vehicle):
         self.colour = colour
         self.brand = brand
 
-a1 = car("red", "skoda")
+a1 = car("red", "Skoda")
 a2 = truck("green", "Tata")
-a3 = bike("blue", "yamaha")
+a3 = bike("blue", "Yamaha")
 
-print(a1.type()+"")
+# print(a1.type()+"makes sound"+a2.sound())
