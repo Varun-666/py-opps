@@ -35,3 +35,9 @@ class truck(vehicle):
         super().__init__(8)
         self.colour = colour
         self.brand = brand
+
+a1 = car("red", "skoda")
+a2 = truck("green", "Tata")
+a3 = bike("blue", "yamaha")
+
+print(a1.type()+"")
