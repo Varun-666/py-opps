@@ -41,3 +41,9 @@ a2 = truck("green", "Tata")
 a3 = bike("blue", "Yamaha")
 
 # print(a1.type()+"makes sound"+a2.sound())
+# print(a3.parentSound())
+
+try:
+    print(a3.model)
+except AttributeError:
+    print("the model attribute is not found!!!")
