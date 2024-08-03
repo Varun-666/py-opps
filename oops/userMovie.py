@@ -32,7 +32,9 @@ class Stack:
 
 myStack = Stack()
 
-for _ in range(5):
+i = int(input("How many movies you wanr to add: "))
+
+for _ in range(i):
     name = input("Enter movie name: ")
     genre = input("Enter movie genre: ")
     rating = input("Enter movie rating: ")
