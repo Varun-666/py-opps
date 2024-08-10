@@ -9,7 +9,7 @@ class Stack:
         self.data.append(item)
     
     def peek(self):
-        if not self.data:  # Check if the stack is empty
+        if not self.data:
             return None
         return self.data[-1]
     
