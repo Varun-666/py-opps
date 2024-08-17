@@ -35,5 +35,7 @@ g.add_edge('C', 'D', None, None)
 g.add_edge('D', 'C', None, None)
 g.add_edge('E', 'F', 20, 21)
 g.add_edge('F', 'C', None, None)
+g.add_edge('F', 'G', None, 20)
+g.add_edge('G', 'C', None, None)
 
 g.print_graph()
